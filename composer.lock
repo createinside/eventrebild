@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "27d3278d2b50f185234cee4e01010733",
-    "content-hash": "0a7f59cae2b899c42438d4e536d3210e",
+    "hash": "0a62490f7c36fb673de7d1c079b43a13",
+    "content-hash": "364076952d663bef1f9f2f7b6d2a9935",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -704,7 +704,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/e58ff41a62fae049dce84d0d7ef387493f75e331",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/54742a0f788b6310a4486e245d850b0b326eb419",
                 "reference": "e58ff41a62fae049dce84d0d7ef387493f75e331",
                 "shasum": ""
             },
@@ -944,6 +944,77 @@
             "time": "2015-11-04 10:15:22"
         },
         {
+            "name": "drupal/devel",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/devel",
+                "reference": "d913e1d94aff00190e690c09432c607f7a399375"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/devel_generate": "self.version",
+                "drupal/devel_node_access": "self.version",
+                "drupal/kint": "self.version",
+                "drupal/webprofiler": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/devel_generate, drupal/devel_node_access, drupal/kint, drupal/webprofiler",
+                "drupal/menu_ui": "Required by drupal/devel_node_access"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "homepage": "https://github.com/weitzman",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "time": "2015-11-08 12:53:50"
+        },
+        {
+            "name": "drupal/restui",
+            "version": "8.1.10",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/restui",
+                "reference": "dfdf65472077e930d9de7339c15f8adefae81afe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/restui-8.x-1.10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/rest": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Provides a user interface to manage REST resources",
+            "homepage": "https://www.drupal.org/project/restui"
+        },
+        {
             "name": "drush/drush",
             "version": "dev-master",
             "source": {
@@ -953,7 +1024,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/1243ab400e3d3de0fe374000e36517c0ae9b1b02",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/95399a8d6e5ae7488cbfb7968bc7fbf51eddd69b",
                 "reference": "1243ab400e3d3de0fe374000e36517c0ae9b1b02",
                 "shasum": ""
             },
