@@ -1,0 +1,12 @@
+uuid: 549c8fe7-5c29-4e04-b514-20550f92463a
+name: EventRebild
+mail: henbak@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: da
+default_langcode: da

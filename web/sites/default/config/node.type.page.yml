@@ -1,0 +1,11 @@
+uuid: 75697a0b-fd6d-4ef7-a500-fb11e8bb93db
+langcode: da
+status: true
+dependencies: {  }
+name: 'Simpel side'
+type: page
+description: 'Brug <em>simple sider</em> til dit statiske indhold, som f.eks. en "om os"-side.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

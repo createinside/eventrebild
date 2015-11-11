@@ -1,0 +1,10 @@
+uuid: 5a9379f9-7e2f-4f42-a809-9eebfc673873
+langcode: da
+status: false
+dependencies:
+  module:
+    - block_content
+id: block_content.full
+label: Fuld
+targetEntityType: block_content
+cache: true

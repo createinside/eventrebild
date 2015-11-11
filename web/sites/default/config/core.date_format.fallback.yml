@@ -1,0 +1,8 @@
+uuid: 51ca28dd-cc5c-4c0e-ba03-3d277082b9df
+langcode: da
+status: true
+dependencies: {  }
+id: fallback
+label: Reservedatoformat
+locked: true
+pattern: 'D, m/d/Y - H:i'

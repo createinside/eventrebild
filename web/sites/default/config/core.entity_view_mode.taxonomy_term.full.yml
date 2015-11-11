@@ -1,0 +1,10 @@
+uuid: e447784d-feb8-4346-9e05-5e6ec0fa1ec1
+langcode: da
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.full
+label: Termside
+targetEntityType: taxonomy_term
+cache: true

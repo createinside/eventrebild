@@ -1,0 +1,26 @@
+uuid: 4b10f5c7-4457-4635-9700-d3d62f4a9ccc
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_event_category
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_image
+    - node.type.event
+  module:
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_event_category: true
+  field_event_date: true
+  field_event_description: true
+  field_event_image: true
+  langcode: true

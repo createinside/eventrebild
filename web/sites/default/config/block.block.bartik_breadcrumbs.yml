@@ -1,0 +1,20 @@
+uuid: cef1e067-1fff-41dd-a900-ea2ce7c539f8
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_breadcrumbs
+theme: bartik
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Brødkrummer
+  provider: system
+  label_display: '0'
+visibility: {  }

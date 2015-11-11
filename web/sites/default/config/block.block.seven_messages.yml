@@ -1,0 +1,20 @@
+uuid: 9dea7fbc-917e-4653-b100-d9acbfbc3784
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+id: seven_messages
+theme: seven
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusmeddelelser
+  provider: system
+  label_display: '0'
+visibility: {  }

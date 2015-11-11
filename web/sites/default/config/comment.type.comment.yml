@@ -1,0 +1,8 @@
+uuid: d94484a1-f00a-4a22-8206-6c8b8aaeea51
+langcode: da
+status: true
+dependencies: {  }
+id: comment
+label: Standardkommentarer
+target_entity_type_id: node
+description: 'Tillader kommentarer på indhold'

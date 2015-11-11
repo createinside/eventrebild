@@ -1,0 +1,11 @@
+uuid: 588a5b6a-e286-4526-9842-66bd1e0efbb7
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: node_publish_action
+label: 'Udgiv indhold'
+type: node
+plugin: node_publish_action
+configuration: {  }

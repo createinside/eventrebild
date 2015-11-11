@@ -1,0 +1,10 @@
+uuid: 3d21a32c-77e4-4bb2-8b00-f830d4860a38
+langcode: da
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - henbak@gmail.com
+reply: ''
+weight: 0

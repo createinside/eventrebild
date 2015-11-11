@@ -1,0 +1,9 @@
+uuid: 9a3cd8b0-ada8-461d-893e-62de686ece56
+langcode: da
+status: true
+dependencies: {  }
+id: und
+label: 'Ikke angivet'
+direction: ltr
+weight: 2
+locked: true

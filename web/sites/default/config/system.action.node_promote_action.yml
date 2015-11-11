@@ -1,0 +1,11 @@
+uuid: d9e4609c-9ef5-4c31-9d47-718b222359e4
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: node_promote_action
+label: 'Vis indhold på forsiden'
+type: node
+plugin: node_promote_action
+configuration: {  }

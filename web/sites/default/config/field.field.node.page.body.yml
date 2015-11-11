@@ -1,0 +1,22 @@
+uuid: aa477986-7d1d-4454-b700-f547c032d7d1
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.page
+  module:
+    - text
+id: node.page.body
+field_name: body
+entity_type: node
+bundle: page
+label: Brødtekst
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

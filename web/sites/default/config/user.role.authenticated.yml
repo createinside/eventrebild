@@ -1,0 +1,26 @@
+uuid: dc12eb08-8cea-4e87-b900-0dab2896884c
+langcode: da
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+  - 'search content'
+  - 'restful delete entity:node'
+  - 'restful get entity:node'
+  - 'restful patch entity:node'
+  - 'restful post entity:node'
+  - 'create event content'
+  - 'delete any event content'
+  - 'delete own event content'
+  - 'edit any event content'
+  - 'edit own event content'

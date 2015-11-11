@@ -1,0 +1,11 @@
+uuid: 023b364c-708e-496a-b111-17e153c9bb6c
+langcode: da
+status: true
+dependencies: {  }
+name: Artikel
+type: article
+description: 'Brug <em>artikler</em> til tidsfølsomt indhold som nyheder, pressemeddelelser eller blogindlæg.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

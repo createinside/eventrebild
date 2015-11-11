@@ -1,0 +1,11 @@
+uuid: 71a2a9c7-afd1-40d5-9f00-b3d6bab365c5
+langcode: da
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_unpublish_action
+label: 'Skjul kommentarer'
+type: comment
+plugin: comment_unpublish_action
+configuration: {  }

@@ -1,0 +1,8 @@
+uuid: 7bb78355-b11e-4925-8114-20bad365ba55
+langcode: da
+status: true
+dependencies: {  }
+id: footer
+label: Sidefod
+description: 'Site information links'
+locked: true
