@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8648278951770f7f75c1815e7c727ea6",
-    "content-hash": "74e2d61b01b988167c042f1a769d5071",
+    "hash": "27d3278d2b50f185234cee4e01010733",
+    "content-hash": "0a7f59cae2b899c42438d4e536d3210e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -661,6 +661,40 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "drupal/admin_toolbar",
+            "version": "8.1.10",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/admin_toolbar.git",
+                "reference": "ce0a2f844820473a1b0968abe1d6fb7c92611430"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/toolbar": "8.*"
+            },
+            "replace": {
+                "drupal/admin_toolbar_tools": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/admin_toolbar_tools"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Admin Toolbar improve the default Drupal Toolbar,it lets the hover of sub menus.",
+            "homepage": "https://www.drupal.org/project/admin_toolbar"
+        },
+        {
             "name": "drupal/console",
             "version": "dev-master",
             "source": {
@@ -919,7 +953,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/bb233b1e40a7aa0052830d39f0784dd0734eb3a5",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/1243ab400e3d3de0fe374000e36517c0ae9b1b02",
                 "reference": "bb233b1e40a7aa0052830d39f0784dd0734eb3a5",
                 "shasum": ""
             },
