@@ -38,16 +38,10 @@ Tools:
 $ composer create-project drupal-composer/drupal-project:8.x-dev eventrebild --stability dev --no-interaction
 ```
 
-
 ### 2:
-```
-composer install
-```
-
-### 3:
 Installér Drupal (med Drush eller manuelt).
 
-### 4:
+### 3:
 Konfigurér stien til `config`-mappen i settings.php:
 ```
 $config_directories['sync'] = 'sites/default/config';
